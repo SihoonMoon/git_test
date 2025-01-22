@@ -3,6 +3,6 @@ def save_file(file_name):
 
     with open(file_name, "w", encoding="utf-8") as file:
         file.write(song)
-    print(f"텍스트가 파일로 나왔서요!")
+    print(f"텍스트가 파일로 나왔서요")
 
 save_file("내파일.txt")
