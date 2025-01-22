@@ -21,17 +21,3 @@ jobs:
     - name: Run Python script
       run: |
         python savefile.py
-
-    # - name: upload
-    #   uses: actions/upload-artifact@v3
-    #   with: 
-    #     name: output-file
-    #     path: gitAction.txt
-
-    - name: commit
-      run: |
-        git config --global user.name "sihoon"
-        git config --global user.name "shmoon@firstclabs.com"
-        git add gitAction.txt
-        git commit -m "add Gitactions result"
-        git push -u origin main
