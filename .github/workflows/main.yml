@@ -22,9 +22,6 @@ jobs:
       run: |
         python savefile.py
 
-    - name: List generate
-      run: dir /s
-
     - name: upload
       uses: actions/upload-artifact@v3
       with: 
