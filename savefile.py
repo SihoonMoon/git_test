@@ -1,8 +1,5 @@
-def save_file(file_name):
+def action_file():
     song = "apple banana cherry do juseyo"
+    print(song)
 
-    with open(file_name, "w") as file:
-        file.write(song)
-    print(f"save files")
-
-save_file("gitAction.txt")
+action_file()
