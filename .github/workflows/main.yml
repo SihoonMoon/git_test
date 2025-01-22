@@ -13,11 +13,20 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: setup python
-      uses: actions/setup-python@v4
-      with:
-        python-version: 3.13.1
+    # - name: setup python
+    #   uses: actions/setup-python@v4
+    #   with:
+    #     python-version: 3.13.1
       
     - name: Run Python script
       run: |
         python savefile.py
+
+    - name: List generate
+      run: dir /s
+
+    - name: upload
+      uses: actions/upload-artifact@v3
+      with: 
+        name: output-file
+        path: gitAction.txt
