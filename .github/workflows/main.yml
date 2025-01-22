@@ -20,4 +20,4 @@ jobs:
       
     - name: Run Python script
       run: |
-        python C:\Users\firstclabs_sihoon\Desktop\exmpales\git_test\savefile.py
+        python savefile.py
