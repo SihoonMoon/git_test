@@ -1,8 +1,8 @@
 def save_file(file_name):
-    song = "가나다라마바사 나는 깃의 고수다"
+    song = "apple banana cherry do juseyo"
 
-    with open(file_name, "w", encoding="utf-8") as file:
+    with open(file_name, "w") as file:
         file.write(song)
-    print(f"텍스트가 파일로 나왔서요")
+    print(f"save files")
 
-save_file("내파일.txt")
+save_file("gitAction.txt")
